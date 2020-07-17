@@ -191,7 +191,7 @@ async function installBundler(bundlerVersionInput, platform, rubyPrefix, engine,
     throw new Error(`Cannot parse bundler input: ${bundlerVersion}`)
   }
 
-  if (rubyVersion.match(/^2\.[12]/)) {
+  if (rubyVersion.match(/^2\.[012]/)) {
     console.log('Bundler 2 requires Ruby 2.3+, using Bundler 1 on Ruby <= 2.2')
     bundlerVersion = '1'
   } else if (rubyVersion.startsWith('2.3')) {
