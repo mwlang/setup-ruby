@@ -5925,7 +5925,7 @@ exports.getState = getState;
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "versions", function() { return versions; });
 const versions = {
-  "2.0.0-p648": "https://dl.bintray.com/oneclick/rubyinstaller/:ruby-2.0.0-p648-x64-mingw32.7z",
+  "2.0.0-p648": "https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.0.0-p648-x64-mingw32.7z",
   "2.1.9": "https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.1.9-x64-mingw32.7z",
   "2.2.6": "https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.2.6-x64-mingw32.7z",
   "2.3.0": "https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.3.0-x64-mingw32.7z",
@@ -7613,7 +7613,7 @@ async function symLinkToEmbeddedMSYS2() {
 async function setupMingw(version) {
   core.exportVariable('MAKE', 'make.exe')
 
-  if (version.match(/^2\.[123]/)) {
+  if (version.match(/^2\.[0123]/)) {
     core.exportVariable('SSL_CERT_FILE', certFile)
     await common.measure('Installing MSYS1', async () =>
       installMSYS(version))
