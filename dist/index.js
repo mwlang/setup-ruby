@@ -3093,7 +3093,7 @@ __webpack_require__.r(__webpack_exports__);
 function getVersions(platform) {
   const versions = {
     "ruby": [
-      "2.0.0-p648",
+      "2.0.0",
       "2.1.9",
       "2.2.10",
       "2.3.0", "2.3.1", "2.3.2", "2.3.3", "2.3.4", "2.3.5", "2.3.6", "2.3.7", "2.3.8",
@@ -5925,7 +5925,7 @@ exports.getState = getState;
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "versions", function() { return versions; });
 const versions = {
-  "2.0.0-p648": "https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.0.0-p648-x64-mingw32.7z",
+  "2.0.0": "https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.0.0-p648-x64-mingw32.7z",
   "2.1.9": "https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.1.9-x64-mingw32.7z",
   "2.2.6": "https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.2.6-x64-mingw32.7z",
   "2.3.0": "https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.3.0-x64-mingw32.7z",
